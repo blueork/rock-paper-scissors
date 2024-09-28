@@ -11,3 +11,8 @@ function getComputerChoice() {
   else
     return "scissors";
 }
+
+function getHumanChoice() {
+  let humanChoice = prompt("Select your weapon: rock paper scissors");
+  return humanChoice.toLowerCase();   // incase the user enters a capitalized string
+}
